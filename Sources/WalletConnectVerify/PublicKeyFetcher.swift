@@ -64,7 +64,7 @@ class PublicKeyFetcher: PublicKeyFetching {
         case decodingError(Error)
     }
 
-    private let urlString = "https://verify.walletconnect.org/v2/public-key"
+  private let urlString = "https://verify.walletconnect.org/v2/public-key"
 
 
     func fetchPublicKey() async throws -> VerifyServerPublicKey {

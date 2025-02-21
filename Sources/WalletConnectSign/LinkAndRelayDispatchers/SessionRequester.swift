@@ -1,5 +1,6 @@
 
 import Foundation
+import WalletConnectUtils
 
 final class SessionRequester {
     private let sessionStore: WCSessionStorage

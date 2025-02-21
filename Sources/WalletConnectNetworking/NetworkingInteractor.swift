@@ -1,5 +1,6 @@
 import Foundation
 import Combine
+import WalletConnectUtils
 
 public class NetworkingInteractor: NetworkInteracting {
     private var tasks = Task.DisposeBag()

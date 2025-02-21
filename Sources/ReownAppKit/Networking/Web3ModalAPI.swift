@@ -8,7 +8,6 @@ enum Web3ModalAPI: HTTPService {
         let projectId: String
         let metadata: AppMetadata
         let recommendedIds: [String]
-        let include: [String]
         let exclude: [String]
     }
     
@@ -47,7 +46,6 @@ enum Web3ModalAPI: HTTPService {
                 "search": params.search ?? "",
                 "recommendedIds": params.recommendedIds.joined(separator: ","),
                 "exclude": params.exclude.joined(separator: ","),
-                "include": params.include.joined(separator: ","),
                 "platform": "ios",
             ]
             .compactMapValues { value in

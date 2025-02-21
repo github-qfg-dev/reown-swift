@@ -1,5 +1,6 @@
 
 import Foundation
+import WalletConnectUtils
 
 public struct Publish: RelayRPC {
 
